@@ -57,22 +57,11 @@ export default {
    **
    */
   manifest: {
-    short_name: "PwaJano",
-    name: "JAGR",
-    theme_color: "#2196f3",
-    background_color: "#2196f3",
+    start_url: "./pages/index.html",
     display: "standalone",
-    Scope: "/",
-    start_url: "/"
-  },
-  /*
-   **
-   */
-  sitemap: {
-    path: "/sitemap.xml",
-    cacheTime: 1000 * 60 * 15,
-    gzip: true,
-    generate: true, // Enable me when using nuxt generate
-    routes: ["/", "/contactos", "/nosotros"]
+    short_name: "PwaJano",
+    name: "Prueba",
+    theme_color: "#2196f3",
+    background_color: "#2196f3" 
   }
 };
